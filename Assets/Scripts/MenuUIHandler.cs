@@ -14,12 +14,12 @@ public class MenuUIHandler : MonoBehaviour
 
     public void StartNew()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void StartOld()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 
     public void Exit()
