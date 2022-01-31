@@ -22,6 +22,11 @@ public class MenuUIHandler : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void Restart()
+    {
+        SceneManager.LoadScene(2);
+    }
+
     public void Exit()
     {
 #if UNITY_EDITOR
