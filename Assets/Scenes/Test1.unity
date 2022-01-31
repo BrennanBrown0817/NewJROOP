@@ -4674,6 +4674,14 @@ PrefabInstance:
       propertyPath: offset.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8386869864377820507, guid: dbc71e14eea69c645a98479000db3256, type: 3}
+      propertyPath: rpmText
+      value: 
+      objectReference: {fileID: 48702635}
+    - target: {fileID: 8386869864377820507, guid: dbc71e14eea69c645a98479000db3256, type: 3}
+      propertyPath: speedometerText
+      value: 
+      objectReference: {fileID: 1371388744}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbc71e14eea69c645a98479000db3256, type: 3}
 --- !u!1 &1910388594 stripped
@@ -5715,6 +5723,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 289190523}
     m_Modifications:
+    - target: {fileID: 1246537897611596890, guid: fcc88d29a54dfcc4aaa8def064726a17, type: 3}
+      propertyPath: rpmText
+      value: 
+      objectReference: {fileID: 48702635}
+    - target: {fileID: 1246537897611596890, guid: fcc88d29a54dfcc4aaa8def064726a17, type: 3}
+      propertyPath: speedometerText
+      value: 
+      objectReference: {fileID: 1371388744}
     - target: {fileID: 4365195717540375892, guid: fcc88d29a54dfcc4aaa8def064726a17, type: 3}
       propertyPath: m_RootOrder
       value: 2
