@@ -10,6 +10,8 @@ public class CharacterSelection : MonoBehaviour
 
     private void Start()
     {
+        index = PlayerPrefs.GetInt("CharacterSelected");
+
         characterList = new GameObject[transform.childCount];
 
         // Fill the array with our models
@@ -20,9 +22,9 @@ public class CharacterSelection : MonoBehaviour
         foreach(GameObject go in characterList)        
             go.SetActive(false);
 
-        // We toggle on the first index
-        if (characterList[0])
-            characterList[0].SetActive(true);
+        // We toggle on the Selected Character
+        if (characterList[index])
+            characterList[index].SetActive(true);
             
         
     }
@@ -57,6 +59,7 @@ public class CharacterSelection : MonoBehaviour
 
     public void ConfirmButton()
     {
+        PlayerPrefs.SetInt("CharacterSelected", index);
         SceneManager.LoadScene("Test1");
     }
 
